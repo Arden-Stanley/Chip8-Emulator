@@ -7,9 +7,12 @@
 
 class CPU {
 private:
-	uint8_t registers[NUM_REGISTERS];
+	uint8_t m_registers[NUM_REGISTERS];
+	uint16_t m_index;
+	uint16_t m_pc;
 public:
-
+	CPU();
+	~CPU();
 };
 
 #endif
