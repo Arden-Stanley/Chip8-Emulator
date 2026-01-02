@@ -29,7 +29,7 @@ private:
 public:
 	Font();
 	~Font();
-	void load();
+	void load(uint8_t fontset[]);
 };
 
 
